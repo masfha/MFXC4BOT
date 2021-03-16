@@ -87,13 +87,13 @@ const setting = JSON.parse(fs.readFileSync('./database/json/setting.json'))
 const bad = JSON.parse(fs.readFileSync('./database/json/bad.json'))
 const premium = JSON.parse(fs.readFileSync('./database/json/premium.json'))
 
-memberLimit = setting.memberlimit
-OwnerNumber = setting.OwnerNumber
-instagram = setting.instagram
-limitt = setting.limitt
-botinfo = setting.botinfo
-prefix = setting.prefix
-name = setting.name
+memberLimit = 1
+OwnerNumber = ["6281398370564@s.whatsapp.net"]
+instagram = 
+limitt = '200'
+botinfo = MFXC4BOT
+prefix = "!"
+name = MASFHA
 yt = setting.yt
 ban = []
 
