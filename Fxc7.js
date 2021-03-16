@@ -347,7 +347,7 @@ async function starts() {
 			}
 
 			const botNumber = frhan.user.jid
-			const ownerNumber = [`${OwnerNumber}@s.whatsapp.net`] // owner number ubah aja 
+			const ownerNumber = [`6281398370554@s.whatsapp.net`] // owner number ubah aja 
 			const ownerInfo = `${OwnerNumber}`
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -371,7 +371,7 @@ async function starts() {
 			const isBanned = ban.includes(sender)
 			const isPrem = premium.includes(sender) || isOwner 
 			const FarhanGans = ["0@s.whatsapp.net"]
-			const FarhanGans2 = " ~ 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 𝐅𝐚𝐫𝐡𝐚𝐧𝐗𝐂𝐨𝐝𝐞𝟳"
+			const FarhanGans2 = " ~ MFXC4BOT"
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 		}
@@ -678,7 +678,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 					for (let Y of res.data) {
 						teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉───────────────────────❉\n`
 					}
-					costum(teks, text, FarhanGans, `Ciee Cari Jawaban Yaa😂\nFollow IG: @_farhan_xcode7`)
+					costum(teks, text, FarhanGans, `Ciee Cari Jawaban Yaa😂\nFollow IG: @masfha0404`)
 					console.log(res)
 					})
 					await limitAdd(sender)
@@ -686,7 +686,7 @@ return new Promise(resolve => setTimeout(resolve, ms));
 		case 'daftar':
 		case 'verify':
 					frhan.updatePresence(from, Presence.composing)
-					if (isUser) return reply('kamu sudah Menjadi Temen IRIENEBOT:D')
+					if (isUser) return reply('kamu sudah Menjadi Temen MFXC4')
 					if (isBanned) return reply(mess.only.benned)
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
